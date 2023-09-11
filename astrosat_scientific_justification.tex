@@ -1,0 +1,186 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DATE           21 April  2016                
+% VERSION        1.0
+% FILENAME       astrosat_targetname_scientific_jus.tex                     
+% PURPOSE        LaTeX template  for the ASTROSAT proposal
+%                scientific justifications.
+% Prepared by GCD and K P Singh  
+% Revised by GCD, DB and KP on 3 September 2019
+% Revised by JR on 2 June 2020
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%             ASTROSAT PROPOSAL  
+%           SCEINTIFIC JUSTIFICATION LATEX TEMPLATE
+%             ----------------------------------
+%  Please use this template for ASTROSAT science proposal justification.
+%
+% The Scientific justifications MUST be submitted as a single PDF file. 
+% A PDF file can be generated from the LaTeX 
+% template as follows:
+%  
+%    > latex astrosat_scientific_jus.tex
+%    > dvips -Ppdf -G0 -o astrosat_**jus.ps astrosat_**jus.dvi
+%    > ps2pdf14 astrosat_**_jus.ps astrosat_**_jus.pdf
+%
+% 
+% WARNINGS: 
+%           1. Maximum length of title is 20 words, while the maximum 
+%              length for abstract is 150 words. 
+%           2. The page limit for the science justification 
+%              is 4 pages including list of references and figure captions. Please do not include technical
+%              justification in this file.  There is separate template
+%              for technical justification with a page limit of 2 pages.   
+%           3. Proposers can include color images in the science 
+%              justification. However, the scientific content of the 
+%              images should still be visible when displayed or
+%              printed in black and white only.
+%           4. References throughout the proposal should be 
+%              provided along with the text e.g., 
+%              (lastname1 \& lastname2, 2014, ApJ, 542, 119) or 
+%              cite in the text and provide a list of references 
+%              at the end of this document. 
+%           5. Please do not change the font size (11pt). 
+%           6. Proposers can use one or two column format which is 
+%              defined by activating one of the \documentclass command provided 
+%              in the latex template. 
+%
+%
+\documentclass[11pt]{article}            % for single column format 
+%\documentclass[11pt,twocolumn]{article} % for two column format
+%
+\usepackage{graphicx}
+%
+% Please do not change the following 6 lines, sizes stolen 
+% from XMM proposal science justficatio.
+\textheight=247mm
+\textwidth=180mm
+\topmargin=-7mm
+\oddsidemargin=-10mm
+\evensidemargin=-10mm
+\parindent 10pt
+%
+
+\pagestyle{myheadings}
+\markright{\footnotesize{Advanced architecture for VCU-Software development }}
+
+
+\begin{document}
+%
+%---- ENTRY 1 ----------------------------------------------------------
+%
+% Type below, within the curly braces{}, the title of your proposal
+%
+\centerline{\large{\bf
+{ Advanced system software development process \& estimation }}}  
+
+\medskip
+%---- ENTRY 2 ----------------------------------------------------------
+% 
+% Type below the Principal Investigator (PI) initial(s) and last name 
+\centerline{\bf Auther:  Lakshmi S. Patel}
+\centerline{\bf IIT Kharagpur-CSE}
+\centerline{\bf Ex-Amazon, MakeMyTrip, OLA, HiTekElectronics}
+\bigskip
+% Provide a concise abstract of your proposal, maximum length 150 word.
+% Please use the same text as entered in 
+% the ASTROSAT Proposal Processing System (APPS).  
+% The abstract should contain the following information: \\
+% Requested observation: \\
+% Context: \\
+% Objectives \& Expected scientific results :  \\
+
+\noindent {\bf 1. Abstract}
+\smallskip\\
+Any software development process requires set of skills to achieve certain goal but when we talk about automobile industry, definitely we need veteran developer with polymath skills set because directly or indirectly life is involved. 
+When we talk about electric vehicle where heavily mechanical process involves like motion of vehicle , breaking system etc. its require high end processing system like microcontrollers or dsp but story not end here, high end processing system 
+does not sufficient because its bare electronics system that help to move the data and do the computation around that, to utilise high efficient computation system we need intelligent skills to design right algorithms which run in efficient ways and 
+specific interval of time. In automobile VCU is central of computation and communication system to that all others system will share their information or data to take right action with given data set and response back in limited time. Its means that 
+VCU is central nervous system which is responsible to quickly carrying data and also taking quick response on that so that other system like BCM, MCU, OBD, etc. with works in sync. Ultimate goal of automobile system with electronics support is 
+to commute with intelligent system so that human being not face any hassle. 
+
+
+% The next section is the place where the scientific background 
+% of the project, previous work and justfication/importance for 
+% the present proposal should be  described. References throughout 
+% the proposal should be provided along with the text e.g., 
+% (lastname1 \& lastname2, 2014, ApJ, 542, 119) or cite in the 
+% text and provide a list of references at the end of this document. 
+
+
+\smallskip
+\noindent {\bf 2. Background and Motivation}
+\smallskip\\
+
+This section is the place where the scientific background of the
+project, previous work and motivation for the present
+proposal should be described. References throughout the proposal
+should be provided along with the text e.g., (lastname1 \& lastname2,
+2014, ApJ, 542, 119) or cite in the text and provide a list of
+references at the end of this document.  
+
+% scientific background of the project,
+% previous work plus justification for present
+% proposal, relevent references.
+%
+
+  Below is an example of adding figures in your science justification.
+
+%-----------------------------Figure Start------------------------------
+\begin{figure}[h]
+\centering
+% un-comment the following line to include your 
+% fig1a.ps postscript file, you may to change scale 
+% and angle parameters to appropriate resize and rotate.
+
+%\includegraphics[scale=0.5,angle=-90]{fig1a.ps}
+
+%  You may add additional \includegraphics command to add 
+% more subfigures in this figure. 
+%
+\caption{\footnotesize
+{figure caption to go here. }}
+\label{fig1}
+\end{figure}
+%-----------------------------Figure End--------------------------------
+
+\smallskip
+\noindent {\bf 3. Objectives with ASTROSAT}
+\smallskip\\
+State clearly the primary and secondary science goals of this proposal, what actually is going 
+to be observed and what will be extracted from the proposed observations using ASTROSAT.
+
+%
+\smallskip
+\noindent {\bf 4. Scientific Feasibility and Justification for the requested observing time}
+\smallskip\\
+Provide a careful justification for the target(s) chosen, requested observing time,
+a feasibility study (expected count rates and signal-to-noise ratios
+for the time requested, background estimates, etc.) and demonstrate
+how the observation will achieve the science goals laid out in the objectives.
+This section can be prepared under the following headings. \\
+{\bf ($i$) The Targets:} Describe the importance of the proposed targets. If repeating, justify additional AstroSat observations. If asking for more than one target, indicate the priority in case 
+only a subset of the proposed targets are accepted. Observations 
+should also be requested in the same order. \\
+{\bf ($ii$) Justification for the requested exposure time:} Justify the exposure time on the basis of results of Exposure Time Calculators, Simulation tools etc.  Present the necessary figures and numbers.\\
+{\bf ($iii$) Scientific feasibility:} Describe how these observations will achieve the stated science goals.
+
+   
+\smallskip
+\noindent {\bf 5. Report on previous successful AstroSat proposals by PI if any}
+\smallskip\\
+Provide a brief description on the status of observations, data availability, data analysis and publication based on previous successful proposal(s) by the PI.  
+
+\smallskip
+\noindent {\bf 6. Do you wish this proposal to be considered under AstroSat Long Term Key Project (ALTKP) ? : yes/no}
+\smallskip\\
+
+\smallskip
+\noindent {\bf 7. Most relevant refereed publications by the proposers}
+\smallskip\\
+List your most relevant refereed papers that are related to the subject of this proposal. \\
+Author1 A., Author2 B., 2010, ApJ, 599, 111: Title of paper1
+\smallskip\\
+Author3 A., Author4 B., 2009, ApJ, 599, 112: Title of paper2
+
+\end{document}
